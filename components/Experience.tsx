@@ -37,11 +37,11 @@ const experiences = [
     period: 'Jun 2019 – Jun 2021',
     location: 'Hybrid',
     responsibilities: [
-      'Built SSR web apps using Next.js for SEO and performance',
-      'Created reusable UI components and dark/light mode themes',
-      'Integrated Figma for UI design and Confluence for documentation',
-      'Configured CI/CD with Git hooks and Jenkins',
-      'Used AWS IAM for access control and secure cloud deployment',
+        'Built a reusable design system and component library in React, improving scalability, consistency, and speed of UI development across multiple applications',
+        'Automated project workflows by configuring Angular CLI and Git hooks for linting, formatting, and commit validations, enhancing code quality and development discipline',
+        'Integrated Apollo Client with React and GraphQL for real-time updates, client-side caching, and optimized state management with minimal network overhead',
+        'Designed and managed secure, performant cloud databases using AWS RDS and DynamoDB, applying indexing, access control, and schema modeling for efficiency and scalability',
+        'Conducted load, performance, and E2E testing using Apache JMeter, Gatling, and Cypress, ensuring stability and responsiveness under heavy traffic and real-world usage'
     ],
   },
 ];
