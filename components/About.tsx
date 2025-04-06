@@ -28,7 +28,7 @@ export default function About() {
         className="flex-1 space-y-4"
       >
         <h1 className="text-4xl font-bold text-primary">
-          Ajay Kumar Reddy Pisati
+          Ajay Kumar
         </h1>
         <h2 className="text-2xl text-foreground/80">Sr UI Developer</h2>
         <p className="text-muted-foreground leading-relaxed">
