@@ -15,7 +15,7 @@ export default function About() {
       >
         <Image
           src={profilePic}
-          alt="Ajay Kumar Reddy Pisati"
+          alt="Ajay Kumar"
           fill
           className="object-cover"
         />
