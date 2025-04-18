@@ -6,8 +6,8 @@ import { ThemeProvider } from '@/components/theme-provider';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Ajay Kumar Reddy Pisati - Sr UI Developer',
-  description: 'Portfolio website of Ajay Kumar Reddy Pisati, a Sr UI Developer with 5+ years of experience',
+  title: 'Venkata Rahul - Sr FrontEnd Developer',
+  description: 'Portfolio website of Venkata Rahul, a Sr FrontEnd Developer with 5+ years of experience',
 };
 
 export default function RootLayout({

@@ -43,7 +43,7 @@ export default function Navbar({ isMenuOpen, setIsMenuOpen }: NavbarProps) {
             className="text-2xl font-bold text-primary"
             whileHover={{ scale: 1.05 }}
           >
-            Ajay Kumar
+            Venkata Rahul
           </motion.a>
 
           {/* Desktop Navigation */}
@@ -60,7 +60,7 @@ export default function Navbar({ isMenuOpen, setIsMenuOpen }: NavbarProps) {
             ))}
 
             <motion.a
-              href="../assets/Rahul_Resume.pdf"
+              href="/assets/Rahul_Resume.pdf"
               download
               className="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:bg-primary/90 transition-colors"
               whileHover={{ scale: 1.05 }}
@@ -103,7 +103,7 @@ export default function Navbar({ isMenuOpen, setIsMenuOpen }: NavbarProps) {
               </a>
             ))}
             <a
-              href="/Ajay_Kumar_Reddy_Resume.pdf"
+              href="../assets/Rahul_Resume.pdf"
               download
               className="block bg-primary text-primary-foreground px-4 py-2 rounded-md hover:bg-primary/90 transition-colors"
               onClick={() => setIsMenuOpen(false)}
