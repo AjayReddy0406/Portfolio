@@ -60,7 +60,7 @@ export default function Navbar({ isMenuOpen, setIsMenuOpen }: NavbarProps) {
             ))}
 
             <motion.a
-              href="../assets/ajay_resume.pdf"
+              href="../assets/Rahul_Resume.pdf"
               download
               className="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:bg-primary/90 transition-colors"
               whileHover={{ scale: 1.05 }}

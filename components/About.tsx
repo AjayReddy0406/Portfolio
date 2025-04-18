@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import profilePic from '../assets/ajay.jpg';
+import profilePic from '../assets/rahul.jpg';
 
 export default function About() {
   return (
@@ -15,7 +15,7 @@ export default function About() {
       >
         <Image
           src={profilePic}
-          alt="Ajay Kumar"
+          alt="Venkata Rahul"
           fill
           className="object-cover"
         />
@@ -28,17 +28,11 @@ export default function About() {
         className="flex-1 space-y-4"
       >
         <h1 className="text-4xl font-bold text-primary">
-          Ajay Kumar
+          Venkata Rahul
         </h1>
-        <h2 className="text-2xl text-foreground/80">Sr UI Developer</h2>
+        <h2 className="text-2xl text-foreground/80">Sr Frontend Developer</h2>
         <p className="text-muted-foreground leading-relaxed">
-          A passionate Sr UI Developer with over 5 years of experience building
-          performant, responsive, and accessible web applications using React.js,
-          Angular, and Vue.js. I excel in writing semantic HTML, scalable CSS using
-          Tailwind, and interactive JavaScript and TypeScript interfaces. My
-          expertise extends to modern design tools like Figma and Adobe XD, and I
-          am proficient in API integration, component libraries, cross-browser
-          support, and Agile methodologies.
+            I am a Senior Frontend Developer with over 5 years of experience in building high-performance, responsive web applications using React, Angular, Vue.js, and Flutter. Proficient in modern UI frameworks like Tailwind CSS, Material-UI, and Bootstrap, I specialize in creating seamless user experiences and scalable applications. My expertise extends to state management, API integration, and cloud platforms like AWS. I am passionate about delivering pixel-perfect designs and optimizing performance, while ensuring high-quality code through unit testing and CI/CD practices.
         </p>
       </motion.div>
     </div>

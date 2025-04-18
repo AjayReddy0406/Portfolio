@@ -5,38 +5,38 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Verizon Admin Dashboard',
+    title: 'Charles Schwab Financial Platform',
     description:
-      'A comprehensive admin dashboard built with React 18 and Next.js, featuring dynamic data visualization, user management, and real-time analytics.',
-    stack: ['React 18', 'Next.js', 'AWS', 'Tailwind'],
-    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop',
+      'Built and maintained a responsive React 18 application using Next.js, Material UI, and Tailwind CSS. Integrated GraphQL, implemented SSR for SEO, and optimized performance with Redux and Webpack.',
+    stack: ['React 18', 'Next.js', 'GraphQL', 'Material UI', 'Tailwind CSS', 'Redux'],
+    image: 'https://images.unsplash.com/photo-1521790797524-b2497295b8a0?w=800&h=400&fit=crop',
     link: '#',
     github: '#',
   },
   {
     title: 'State Farm Claims Portal',
     description:
-      'A claims processing dashboard with advanced form handling, filtering capabilities, and comprehensive user management system.',
-    stack: ['React 17', 'Redux Toolkit', 'GraphQL'],
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop',
+      'Developed an advanced claims dashboard using React 17, Redux Toolkit, and GraphQL. Implemented performance optimizations like code splitting, memoization, and used TypeScript utility types for type safety.',
+    stack: ['React 17', 'Redux Toolkit', 'GraphQL', 'TypeScript', 'Next.js'],
+    image: 'https://images.unsplash.com/photo-1581091870622-6c79e7d264d3?w=800&h=400&fit=crop',
     link: '#',
     github: '#',
   },
   {
-    title: 'ISOFT E-Commerce UI Kit',
+    title: 'SB Systems UI Revamp',
     description:
-      'A comprehensive e-commerce UI library featuring product cards, checkout flows, and advanced filtering components.',
-    stack: ['React', 'Next.js', 'Tailwind', 'Node.js'],
-    image: 'https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800&h=400&fit=crop',
+      'Modernized legacy applications using React 16, Redux, and Next.js. Integrated Apollo for GraphQL data fetching, implemented streaming SSR, and built dark/light theme support using CSS variables.',
+    stack: ['React 16', 'Next.js', 'Redux', 'Apollo Client', 'CSS3'],
+    image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=400&fit=crop',
     link: '#',
     github: '#',
   },
   {
-    title: 'UI Playground',
+    title: 'UI Component Library',
     description:
-      'A showcase of reusable UI components demonstrating modern design patterns, accessibility features, and responsive layouts.',
-    stack: ['React', 'Tailwind'],
-    image: 'https://images.unsplash.com/photo-1545665277-5937489579f2?w=800&h=400&fit=crop',
+      'Built reusable component libraries for internal products using React, TypeScript, and Figma prototypes. Focused on accessibility, responsiveness, and cross-browser compatibility.',
+    stack: ['React', 'TypeScript', 'Figma', 'SASS', 'Webpack'],
+    image: 'https://images.unsplash.com/photo-1603575448365-9c4973b7c894?w=800&h=400&fit=crop',
     link: '#',
     github: '#',
   },
