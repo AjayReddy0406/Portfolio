@@ -5,38 +5,67 @@ import { ExternalLink, Github } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Charles Schwab Financial Platform',
+    title: 'Humana Healthcare Portal',
     description:
-      'Built and maintained a responsive React 18 application using Next.js, Material UI, and Tailwind CSS. Integrated GraphQL, implemented SSR for SEO, and optimized performance with Redux and Webpack.',
-    stack: ['React 18', 'Next.js', 'GraphQL', 'Material UI', 'Tailwind CSS', 'Redux'],
-    image: 'https://images.unsplash.com/photo-1521790797524-b2497295b8a0?w=800&h=400&fit=crop',
+      'Engineered scalable React 18 and Angular 18 portals for healthcare members and providers. Integrated OpenAI GPT for real-time chat, WebRTC for consultations, and GraphQL APIs. Implemented micro-frontend architecture and automated CI/CD on AWS and Azure.',
+    stack: [
+      'React 18',
+      'Angular 18',
+      'OpenAI GPT',
+      'WebRTC',
+      'GraphQL',
+      'Tailwind CSS',
+      'Spring Boot',
+      'Docker',
+    ],
+    image:
+      'https://images.unsplash.com/photo-1555421689-43cad7100751?w=800&h=400&fit=crop',
     link: '#',
     github: '#',
   },
   {
-    title: 'State Farm Claims Portal',
+    title: 'Capital Group Financial Dashboard',
     description:
-      'Developed an advanced claims dashboard using React 17, Redux Toolkit, and GraphQL. Implemented performance optimizations like code splitting, memoization, and used TypeScript utility types for type safety.',
-    stack: ['React 17', 'Redux Toolkit', 'GraphQL', 'TypeScript', 'Next.js'],
-    image: 'https://images.unsplash.com/photo-1581091870622-6c79e7d264d3?w=800&h=400&fit=crop',
+      'Developed high-performance dashboards using React Query, Spring Boot APIs, and Django backend. Integrated BigQuery pipelines for analytics, deployed with AWS ECS/EKS, and secured with Azure RBAC.',
+    stack: [
+      'React',
+      'React Query',
+      'Spring Boot',
+      'Django',
+      'GraphQL',
+      'BigQuery',
+      'AWS',
+      'Azure',
+    ],
+    image:
+      'https://images.unsplash.com/photo-1624378439575-758de21133a8?w=800&h=400&fit=crop',
     link: '#',
     github: '#',
   },
   {
-    title: 'SB Systems UI Revamp',
+    title: 'Cyient Web Revamp',
     description:
-      'Modernized legacy applications using React 16, Redux, and Next.js. Integrated Apollo for GraphQL data fetching, implemented streaming SSR, and built dark/light theme support using CSS variables.',
-    stack: ['React 16', 'Next.js', 'Redux', 'Apollo Client', 'CSS3'],
-    image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=400&fit=crop',
+      'Modernized legacy frontend using React 16 and AngularJS. Migrated REST APIs to GraphQL, implemented SSR streaming, and deployed scalable infrastructure with AWS Lambda and API Gateway.',
+    stack: [
+      'React 16',
+      'AngularJS',
+      'GraphQL',
+      'SSR',
+      'AWS Lambda',
+      'Node.js',
+    ],
+    image:
+      'https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?w=800&h=400&fit=crop',
     link: '#',
     github: '#',
   },
   {
-    title: 'UI Component Library',
+    title: 'AI Chat Integration System',
     description:
-      'Built reusable component libraries for internal products using React, TypeScript, and Figma prototypes. Focused on accessibility, responsiveness, and cross-browser compatibility.',
-    stack: ['React', 'TypeScript', 'Figma', 'SASS', 'Webpack'],
-    image: 'https://images.unsplash.com/photo-1603575448365-9c4973b7c894?w=800&h=400&fit=crop',
+      'Built and integrated OpenAI-powered chat with WebSockets and React WebRTC for real-time healthcare communication. Implemented secure messaging and role-based data access.',
+    stack: ['React', 'OpenAI GPT', 'WebSockets', 'WebRTC', 'Flask', 'JWT', 'Azure'],
+    image:
+      'https://images.unsplash.com/photo-1605902711622-cfb43c4437f1?w=800&h=400&fit=crop',
     link: '#',
     github: '#',
   },

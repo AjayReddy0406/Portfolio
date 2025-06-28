@@ -2,7 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import profilePic from '../assets/rahul.jpg';
+import profilePic from '../assets/AjayReddy.jpg';
 
 export default function About() {
   return (
@@ -15,7 +15,7 @@ export default function About() {
       >
         <Image
           src={profilePic}
-          alt="Venkata Rahul"
+          alt="Ajay Reddy"
           fill
           className="object-cover"
         />
@@ -28,11 +28,11 @@ export default function About() {
         className="flex-1 space-y-4"
       >
         <h1 className="text-4xl font-bold text-primary">
-          Venkata Rahul
+          Ajay Reddy
         </h1>
-        <h2 className="text-2xl text-foreground/80">Sr Frontend Developer</h2>
+        <h2 className="text-2xl text-foreground/80">Sr Frontend Software Engineer</h2>
         <p className="text-muted-foreground leading-relaxed">
-            I am a Senior Frontend Developer with over 5 years of experience in building high-performance, responsive web applications using React, Angular, Vue.js, and Flutter. Proficient in modern UI frameworks like Tailwind CSS, Material-UI, and Bootstrap, I specialize in creating seamless user experiences and scalable applications. My expertise extends to state management, API integration, and cloud platforms like AWS. I am passionate about delivering pixel-perfect designs and optimizing performance, while ensuring high-quality code through unit testing and CI/CD practices.
+            Senior Frontend Software Engineer with over 5 years of experience delivering scalable, high-performance web applications using React, Angular, and Vue. Skilled in JavaScript, TypeScript, Redux, and real-time analytics with React Query and WebSockets. Experienced in integrating AI-powered solutions such as OpenAI’s GPT and WebRTC for real-time chat applications, enhancing user interaction in healthcare systems. Strong backend knowledge with Java, Spring Boot, and Python, and hands-on expertise in cloud deployments (AWS, Azure), CI/CD pipelines, and test automation. Proven success in building responsive, secure, and accessible applications across finance and healthcare domains.
         </p>
       </motion.div>
     </div>

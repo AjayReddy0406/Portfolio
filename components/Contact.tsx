@@ -23,7 +23,7 @@ export default function Contact() {
         className="grid grid-cols-1 md:grid-cols-3 gap-8"
       >
         <a
-          href="mailto:rahulmutyala29@gmail.com"
+          href="mailto:ajaynet.fse@gmail.com"
           className="flex items-center gap-4 bg-card p-6 rounded-lg shadow-lg hover:scale-105 transition-transform"
         >
           <div className="p-3 bg-primary/10 rounded-full">
@@ -31,12 +31,12 @@ export default function Contact() {
           </div>
           <div>
             <h3 className="font-semibold text-card-foreground">Email</h3>
-            <p className="text-sm text-muted-foreground">rahulmutyala29@gmail.com</p>
+            <p className="text-sm text-muted-foreground">ajaynet.fse@gmail.com</p>
           </div>
         </a>
 
         <a
-          href="tel:+17746130239"
+          href="tel:+17609368683"
           className="flex items-center gap-4 bg-card p-6 rounded-lg shadow-lg hover:scale-105 transition-transform"
         >
           <div className="p-3 bg-primary/10 rounded-full">
@@ -44,12 +44,12 @@ export default function Contact() {
           </div>
           <div>
             <h3 className="font-semibold text-card-foreground">Phone</h3>
-            <p className="text-sm text-muted-foreground">+1 (774)-613-0239</p>
+            <p className="text-sm text-muted-foreground">+1 (760)-936-8683</p>
           </div>
         </a>
 
         <a
-          href="https://www.linkedin.com/in/m-v-rahul-78b396180/"
+          href="http://www.linkedin.com/in/reddy5679"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-4 bg-card p-6 rounded-lg shadow-lg hover:scale-105 transition-transform"

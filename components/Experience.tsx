@@ -5,42 +5,42 @@ import { Calendar, MapPin, Building2 } from 'lucide-react';
 
 const experiences = [
   {
-    company: 'Charles Schwab',
-    position: 'Sr. Frontend Developer',
-    period: 'May 2023 – Present',
-    location: 'Miami, FL',
+    company: 'Humana',
+    position: 'Senior Frontend Software Engineer',
+    period: 'April 2023 – Present',
+    location: 'Boston, MA',
     responsibilities: [
-      'Built scalable, responsive UI components with React 18, TypeScript, and Tailwind CSS, improving performance and user experience across platforms.',
-      'Implemented GraphQL queries and mutations with Apollo Client to streamline data fetching and reduce over-fetching issues.',
-      'Led Next.js SSR projects with dynamic routing and Webpack optimization for faster initial load and SEO benefits.',
-      'Collaborated in Figma-driven agile sprints, ensuring pixel-perfect UI designs and rapid feature rollouts.',
-      'Deployed apps using AWS (EC2, ELB, Auto Scaling) and managed CI/CD pipelines for consistent releases.'
+      'Developed scalable, responsive UI components using React 18, Angular 18, and Tailwind CSS for healthcare portals.',
+      'Integrated AI-powered chat systems using OpenAI GPT and WebRTC to enhance real-time patient-doctor communication.',
+      'Built micro-frontend architecture with Webpack Module Federation to modularize large applications.',
+      'Developed REST and GraphQL APIs using Flask and Spring Boot to streamline backend integration.',
+      'Led CI/CD pipeline automation using Docker, Jenkins, GitHub Actions, and deployed apps to AWS and Azure.',
     ],
   },
   {
-    company: 'State Farm',
-    position: 'Sr. Frontend Developer',
-    period: 'Jul 2021 – Jul 2022',
-    location: 'Bloomington, IL',
+    company: 'Capital Group',
+    position: 'Frontend Software Engineer',
+    period: 'March 2021 – April 2022',
+    location: 'San Antonio, TX',
     responsibilities: [
-      'Built enterprise-scale React 17 apps with Redux Toolkit and Context API for efficient state management.',
-      'Optimized performance through Webpack code splitting and Next.js static generation techniques.',
-      'Created dynamic GraphQL schemas and integrated RESTful services using Node.js and Express.js.',
-      'Maintained test coverage with Jest, Cypress, and Selenium for end-to-end and unit testing.',
-      'Ensured accessibility and semantic HTML/CSS across all views following WCAG guidelines.'
+      'Developed React dashboards using React Query and Spring Boot APIs for financial applications.',
+      'Built secure REST and GraphQL APIs using Flask, Django, and Node.js, improving data flow efficiency.',
+      'Integrated AEM with third-party APIs and developed internationalized UI using React and Angular.',
+      'Enhanced data pipelines using BigQuery and Cloud SQL, improving financial analytics performance.',
+      'Deployed containerized microservices with AWS ECS/EKS and implemented RBAC using Azure AD.',
     ],
   },
   {
-    company: 'SB Systems',
-    position: 'Frontend/UI Developer',
-    period: 'Jun 2019 – Jun 2021',
+    company: 'Cyient',
+    position: 'Frontend Web Developer',
+    period: 'August 2019 – February 2021',
     location: 'Hyderabad, India',
     responsibilities: [
-      'Developed reusable UI components and libraries in React 16 and Angular, improving development efficiency.',
-      'Enhanced frontend performance with SSR, lazy loading, and Apollo GraphQL caching strategies.',
-      'Streamlined CI/CD with Git hooks, AWS deployments, and automated testing for quality assurance.',
-      'Built interactive dashboards using Figma prototypes and Vue.js for CRM analytics.',
-      'Integrated AWS services (Lambda, RDS, S3) for scalable and secure backend API deployments.'
+      'Implemented React and Angular UI components with SSR and lazy loading for improved performance.',
+      'Developed and consumed GraphQL APIs, enhancing API efficiency and reducing over-fetching.',
+      'Managed AWS deployments with Lambda, EC2, and API Gateway for scalable backend integration.',
+      'Built REST APIs using Rails and Node.js, and scheduled background tasks using cron jobs.',
+      'Optimized CI/CD pipelines and used Jasmine/Karma for frontend test automation.',
     ],
   },
 ];
